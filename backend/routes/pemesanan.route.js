@@ -1,0 +1,17 @@
+const express = require(`express`)
+const app = express()
+app.use(express.json())
+const pemesananController = require(`../controllers/pemesanan.controller`)
+const auth = require(`../auth/auth`)
+app.get("/", auth.authVerify,pemesananController.getAllPemesanan)
+app.get("/:id", auth.authVerify,pemesananController.getPemesananById)
+app.get("/find/:id", auth.authVerify,pemesananController.findPemesananById)
+app.post("/add", auth.authVerify,pemesananController.addPemesanan)
+app.post("/addcust", auth.authVerify,pemesananController.addPemesananCust)
+app.post("/finds", auth.authVerify,pemesananController.findPemesanan)
+app.post("/avail", auth.authVerify,pemesananController.getAvailableRooms)
+app.put("/:id", auth.authVerify,pemesananController.updatePemesanan)
+app.put("/updatestatus/:id", auth.authVerify,pemesananController.updateStatusPemesanan)
+app.delete("/:id", auth.authVerify,pemesananController.deletePemesanan)
+
+module.exports = app
