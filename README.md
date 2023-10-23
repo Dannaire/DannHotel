@@ -19,6 +19,29 @@
 ![image](https://github.com/Dannaire/DannHotel/assets/101534120/ebac2cf1-0478-4b8b-9021-8040f6bfa9cb)
 ![image](https://github.com/Dannaire/DannHotel/assets/101534120/20b81cef-93ae-46a5-9ad5-dd9480e7f524)
 
+# Frontend Admin
+## Dashboard
+![image](https://github.com/Dannaire/DannHotel/assets/101534120/b91eb7cf-bae2-4c26-9008-97ff9f2494cf)
+## CRUD Kamar
+![image](https://github.com/Dannaire/DannHotel/assets/101534120/ef6828be-6d04-48b5-85f2-010bc4610588)
+## CRUD Tipe Kamar
+![image](https://github.com/Dannaire/DannHotel/assets/101534120/4574a1f4-e034-46d4-a421-0fb26b79e2c8)
+## CRUD User
+![image](https://github.com/Dannaire/DannHotel/assets/101534120/5ba2ef16-e692-4d50-b266-74f391875c32)
+
+# Frontend Resepsionis
+## Dashboard
+![image](https://github.com/Dannaire/DannHotel/assets/101534120/a32a47ed-bf3e-4074-9670-1df717e5601d)
+## Pemesanan
+![image](https://github.com/Dannaire/DannHotel/assets/101534120/af611ddb-b218-4063-8e92-d93ed3136bea)
+
+
+
+
+
+
+
+
 
 
 
